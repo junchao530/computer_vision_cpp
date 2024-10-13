@@ -1,0 +1,17 @@
+[
+{
+  "directory": "/home/jun/image_processing_cpp/build",
+  "command": "/usr/bin/c++  -isystem /usr/local/include/opencv4 -g -std=gnu++17 -o CMakeFiles/IMAGE_PROCESSING_CPP.dir/source/main.cpp.o -c /home/jun/image_processing_cpp/source/main.cpp",
+  "file": "/home/jun/image_processing_cpp/source/main.cpp"
+},
+{
+  "directory": "/home/jun/image_processing_cpp/build",
+  "command": "/usr/bin/c++  -isystem /usr/local/include/opencv4 -g -std=gnu++17 -o CMakeFiles/IMAGE_PROCESSING_CPP.dir/source/image.cpp.o -c /home/jun/image_processing_cpp/source/image.cpp",
+  "file": "/home/jun/image_processing_cpp/source/image.cpp"
+},
+{
+  "directory": "/home/jun/image_processing_cpp/build",
+  "command": "/usr/bin/c++  -isystem /usr/local/include/opencv4 -g -std=gnu++17 -o CMakeFiles/IMAGE_PROCESSING_CPP.dir/source/functions.cpp.o -c /home/jun/image_processing_cpp/source/functions.cpp",
+  "file": "/home/jun/image_processing_cpp/source/functions.cpp"
+}
+]
