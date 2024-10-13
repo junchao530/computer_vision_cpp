@@ -1,3 +1,13 @@
+
+/*
+ The Image class provides methods for creating, manipulating, and accessing pixel values
+ * in images. It supports both greyscale and color images, with separate methods and data 
+ * members for each type. Greyscale images are represented using a 2D array of pixel values, 
+ * while color images are represented using a 3D array to account for multiple channels.
+
+
+
+*/
 #ifndef IMAGE_H
 #define IMAGE_H
 
