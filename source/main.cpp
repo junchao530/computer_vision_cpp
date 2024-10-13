@@ -4,7 +4,7 @@ Main function to make calls to the image and the type of processing.
 
 */
 
-//include "0functions.hpp"
+#include "functions.hpp"
 #include <string.h>
 #include <stdio.h>
 #include <iostream>
@@ -62,6 +62,7 @@ void printHelp()
 }
 
 int main(int argc, char **argv){
+    //check through 1 image operations
     if(argc ==3 ){
         image ImageIn = readImage(argv[2]);
         int count = 0;
@@ -84,6 +85,7 @@ int main(int argc, char **argv){
         }
     }
     else{
+        //check through two image operations
         Image imageIn = readImage(argv[2]);
 
         if(strcmp(argv[1]), "linearcontrastSaturation" == 0){
